@@ -1,9 +1,11 @@
 <template>
-  <RouterView/>
+  <div>
+        Create Role
+  </div>
 </template>
 
 <script lang="ts" setup>
-  
+
 </script>
 
 <style>

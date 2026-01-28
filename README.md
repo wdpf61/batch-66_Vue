@@ -1,6 +1,5 @@
 npm install vue-router
 
-
 const routes = [
     {
   path: '/admin',
@@ -29,10 +28,6 @@ const routes = [
 ]
 
 
-
-
-
-
 const router = createRouter({
   history: createWebHistory(),
   routes
@@ -40,6 +35,7 @@ const router = createRouter({
 
 export default router
 createApp(App).use(router).mount('#app')
+
 <router-view />
 <router-link to="/about">About</router-link>
 const route = useRoute()
