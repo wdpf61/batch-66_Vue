@@ -3,6 +3,8 @@ import Dashboard from "../pages/dashboard/Dashboard.vue";
 import RoleList from "../pages/role/RoleList.vue";
 import CreateRole from "../pages/role/CreateRole.vue";
 import EditRole from "../pages/role/EditRole.vue";
+import CustomerList from "../pages/customers/CustomerList.vue";
+import CreateCustomer from "../pages/customers/CreateCustomer.vue";
 
 
 const routes=[
@@ -10,6 +12,10 @@ const routes=[
     {path:"/role", component:RoleList},
     {path:"/role/create", component:CreateRole},
     {path:"/role/edit/:id", component:EditRole},
+
+
+    {path:"/customers", component:CustomerList},
+    {path:"/customers/create", component:CreateCustomer},
 ]
 
 

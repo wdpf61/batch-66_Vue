@@ -48,3 +48,6 @@ console.log(route.params.id)
 const router = useRouter()
 router.push('/about')
 router.push({ name: 'student', params: { id: 10 } })
+
+api
+npm i axios

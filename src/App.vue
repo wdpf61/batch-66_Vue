@@ -3,12 +3,8 @@
 </template>
 
 
-
-
-
 <script lang="ts" setup>
-import Main from './layouts/Main.vue';
-
+  import Main from './layouts/Main.vue';
 </script>
 
 <style>
